@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCrashDemo", "WindowsCrashDemo\WindowsCrashDemo.csproj", "{7FEB54D1-913F-4395-B543-DE78E2A34262}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsCrashDemo.WinForms.Lib", "WindowsCrashDemo.WinForms.Lib\WindowsCrashDemo.WinForms.Lib.vbproj", "{03C946B4-9ACA-4DEB-AF02-486823A7D4AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEB54D1-913F-4395-B543-DE78E2A34262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEB54D1-913F-4395-B543-DE78E2A34262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEB54D1-913F-4395-B543-DE78E2A34262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEB54D1-913F-4395-B543-DE78E2A34262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C946B4-9ACA-4DEB-AF02-486823A7D4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C946B4-9ACA-4DEB-AF02-486823A7D4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C946B4-9ACA-4DEB-AF02-486823A7D4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C946B4-9ACA-4DEB-AF02-486823A7D4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B6C78C2-53D9-49E1-A6D5-841D917783B5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://clovertech.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WindowsCrashDemo\\WindowsCrashDemo.csproj
+		SccProjectName1 = WindowsCrashDemo
+		SccLocalPath1 = WindowsCrashDemo
+		SccProjectUniqueName2 = WindowsCrashDemo.WinForms.Lib\\WindowsCrashDemo.WinForms.Lib.vbproj
+		SccProjectName2 = WindowsCrashDemo.WinForms.Lib
+		SccLocalPath2 = WindowsCrashDemo.WinForms.Lib
+	EndGlobalSection
+EndGlobal
