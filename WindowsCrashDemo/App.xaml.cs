@@ -169,7 +169,7 @@ namespace WindowsCrashDemo
 
                     if (!canContinue)
                     {
-                        Debug.WriteLine($"A fatal {exitCode.GetDescription()} has occured and the Application cannot continue. {exception.Message}", exception);
+                        Debug.WriteLine($"A fatal {exitCode.GetDescription()} has occurred and the Application cannot continue. {exception.Message}", exception);
 
                         ApplicationExit(exitCode);
 

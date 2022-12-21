@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCrashDemo", "WindowsCrashDemo\WindowsCrashDemo.csproj", "{7FEB54D1-913F-4395-B543-DE78E2A34262}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsCrashDemo.WinForms.Lib", "WindowsCrashDemo.WinForms.Lib\WindowsCrashDemo.WinForms.Lib.vbproj", "{03C946B4-9ACA-4DEB-AF02-486823A7D4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1DCC5B0-E9A2-4061-B38F-12620A8B9EA7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,17 +33,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B6C78C2-53D9-49E1-A6D5-841D917783B5}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://clovertech.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WindowsCrashDemo\\WindowsCrashDemo.csproj
-		SccProjectName1 = WindowsCrashDemo
-		SccLocalPath1 = WindowsCrashDemo
-		SccProjectUniqueName2 = WindowsCrashDemo.WinForms.Lib\\WindowsCrashDemo.WinForms.Lib.vbproj
-		SccProjectName2 = WindowsCrashDemo.WinForms.Lib
-		SccLocalPath2 = WindowsCrashDemo.WinForms.Lib
 	EndGlobalSection
 EndGlobal

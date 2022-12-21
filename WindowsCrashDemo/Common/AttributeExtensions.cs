@@ -33,7 +33,7 @@ namespace WindowsCrashDemo.Common
             }
             catch (Exception e)
             {
-                throw new ApplicationException($"An error occurred getting the description of {nameof(source)} {fi.Name}. {e.Message}", e);
+                throw new ArgumentException($"An error occurred getting the description of {nameof(source)} {fi.Name}. {e.Message}", e);
             }
 
             return fi.Name;
